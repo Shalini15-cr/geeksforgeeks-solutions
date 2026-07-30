@@ -1,0 +1,24 @@
+String str1 ="tiger";
+String str2="ti";
+
+Remove the str2 elements and print balanace elements in str1
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str1 = sc.nextLine();
+        String str2 = sc.nextLine();
+        String result = str1.replace(str2, "");
+        System.out.println(result);
+    }
+}
+
+
+ip: 
+tiger
+ti
+
+
+op :
+ger
